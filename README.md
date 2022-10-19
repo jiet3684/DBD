@@ -76,7 +76,11 @@ And execution time of Dynamic Block Distribution also includes preprocessing ove
 
 ## References
 [1] "Intel Math Kernel Library", https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html
+
 [2] "NVIDIA cuSPARSE v11.7", https://docs.nvidia.com/cuda/cusparse/index.html
+
 [3] Weifeng   Liu   and   Brian   Vinter.A   framework   for   general   sparsematrix–matrix  multiplication  on  gpus  and  heterogeneous  processors.Journal of Parallel and Distributed Computing, 85:47–61, 2015. IPDPS2014 Selected Papers on Numerical and Combinatorial Algorithms
+
 [4] N  Bell  and  M  Garland.   Cusp:  Generic  parallel  algorithms  for  sparsematrix and graph computations, version 0.5.1, 2015.
+
 [5] Mathias Parger, Martin Winter, Daniel Mlakar, and Markus Steinberger.Speck:  Accelerating  gpu  sparse  matrix-matrix  multiplication  throughlightweight analysis. InProceedings of the 25th ACM SIGPLAN Sympo-sium on Principles and Practice of Parallel Programming, PPoPP ’20,page 362–375, New York, NY, USA, 2020. Association for ComputingMachinery.
