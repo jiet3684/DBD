@@ -67,6 +67,8 @@ Ex) ./bin/SSpMM 24 16 data
 
 All datasets used can be found in [SuiteSparse Matrix Collection](https://sparse.tamu.edu/)
 
+MKL and cuSPARSE reads .csr file made by DBD framework. So run DBD first, and then run mkl or cusparse for same input data.
+
 # Result
 Every execution Time includes kernel execution, device-to-host transfer (if needed), file I/O.
 

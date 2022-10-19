@@ -1,4 +1,5 @@
-BASEDIR=/home/jiet/icde/small # Change this BASEDIR
+# Change BASEDIR
+BASEDIR=/home/jiet/DBD/icde/small
 SRCDIR=$(BASEDIR)/src
 OBJDIR=$(BASEDIR)/obj
 
@@ -9,7 +10,8 @@ CPPFLAGS=-O3 -std=c++14 --no-warn -fopenmp -lpthread -w -Wno-strict-aliasing
 CPPFLAGSDEBUG=$(CPPFLAGS) -DDEBUG
 CPPFLAGSCOMPUTE=$(CPPFLAGS) -DCOMPUTE
 NVCC=nvcc
-NVCCFLAGS=-arch=compute_86 -code=sm_86 -Xcompiler -fopenmp -lpthread -O3 -w $(LINKFLGAS) # Change CC to appropriate value
+ # Change CC to appropriate value
+NVCCFLAGS=-arch=compute_86 -code=sm_86 -Xcompiler -fopenmp -lpthread -O3 -w $(LINKFLGAS)
 NVCCFLAGSDEBUG=$(NVCCFLAGS) -DDEBUG
 NVCCFLAGSCOMPUTE=$(NVCCFLAGS) -DCOMPUTE
 HEADER=$(SRCDIR)/SSpMM.hpp
