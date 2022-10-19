@@ -1,0 +1,2 @@
+/usr/bin/ar qc libspECKLib.a  CMakeFiles/spECKLib.dir/source/GPU/Transpose.cu.o CMakeFiles/spECKLib.dir/source/GPU/memory.cpp.o CMakeFiles/spECKLib.dir/source/GPU/Compare.cu.o CMakeFiles/spECKLib.dir/source/COO.cpp.o CMakeFiles/spECKLib.dir/source/CSR.cpp.o CMakeFiles/spECKLib.dir/source/dCSR.cpp.o CMakeFiles/spECKLib.dir/source/Config.cpp.o CMakeFiles/spECKLib.dir/source/GPU/Multiply.cu.o
+/usr/bin/ranlib libspECKLib.a

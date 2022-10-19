@@ -1,0 +1,4 @@
+/home/jiet/Documents/spECK/build/CMakeFiles/rebuild_cache.dir
+/home/jiet/Documents/spECK/build/CMakeFiles/edit_cache.dir
+/home/jiet/Documents/spECK/build/CMakeFiles/runspECK.dir
+/home/jiet/Documents/spECK/build/CMakeFiles/spECKLib.dir

@@ -1,0 +1,423 @@
+typedef char __nv_bool;
+# 2858 "/usr/local/cuda/bin/../targets/x86_64-linux/include/driver_types.h"
+struct CUstream_st;
+# 10 "/home/jiet/Documents/spECK/include/dCSR.h"
+struct _Z4dCSRIfE;
+# 10 "/home/jiet/Documents/spECK/include/dCSR.h"
+struct _Z4dCSRIdE;
+# 173 "/usr/include/c++/9/bits/basic_string.h" 3
+enum _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEUt_E {
+# 173 "/usr/include/c++/9/bits/basic_string.h" 3
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17_S_local_capacityE = 15};
+# 173 "/usr/include/c++/9/bits/basic_string.h" 3
+enum _ZNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEEUt_E {
+# 173 "/usr/include/c++/9/bits/basic_string.h" 3
+_ZNSt7__cxx1112basic_stringIwSt11char_traitsIwESaIwEE17_S_local_capacityE = 3};
+# 173 "/usr/include/c++/9/bits/basic_string.h" 3
+enum _ZNSt7__cxx1112basic_stringIDsSt11char_traitsIDsESaIDsEEUt_E {
+# 173 "/usr/include/c++/9/bits/basic_string.h" 3
+_ZNSt7__cxx1112basic_stringIDsSt11char_traitsIDsESaIDsEE17_S_local_capacityE = 7};
+# 173 "/usr/include/c++/9/bits/basic_string.h" 3
+enum _ZNSt7__cxx1112basic_stringIDiSt11char_traitsIDiESaIDiEEUt_E {
+# 173 "/usr/include/c++/9/bits/basic_string.h" 3
+_ZNSt7__cxx1112basic_stringIDiSt11char_traitsIDiESaIDiEE17_S_local_capacityE = 3};
+# 185 "/usr/include/c++/9/bits/stl_pair.h" 3
+struct _ZSt20__nonesuch_no_braces;
+# 50 "/usr/include/c++/9/bits/uses_allocator.h" 3
+struct _ZSt15allocator_arg_t;
+# 104 "/usr/include/c++/9/bits/std_function.h" 3
+enum _ZSt18_Manager_operation {
+# 106 "/usr/include/c++/9/bits/std_function.h" 3
+_ZSt15__get_type_info,
+# 107 "/usr/include/c++/9/bits/std_function.h" 3
+_ZSt17__get_functor_ptr,
+# 108 "/usr/include/c++/9/bits/std_function.h" 3
+_ZSt15__clone_functor,
+# 109 "/usr/include/c++/9/bits/std_function.h" 3
+_ZSt17__destroy_functor};
+# 209 "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" 3
+typedef unsigned long size_t;
+#include "crt/device_runtime.h"
+# 42 "/usr/include/x86_64-linux-gnu/bits/types.h" 3
+typedef unsigned __uint32_t;
+# 26 "/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h" 3
+typedef __uint32_t uint32_t;
+# 10 "/home/jiet/Documents/spECK/include/dCSR.h"
+struct _Z4dCSRIfE { const long *__vptr;
+# 12 "/home/jiet/Documents/spECK/include/dCSR.h"
+size_t rows;
+# 12 "/home/jiet/Documents/spECK/include/dCSR.h"
+size_t cols;
+# 12 "/home/jiet/Documents/spECK/include/dCSR.h"
+size_t nnz;
+# 14 "/home/jiet/Documents/spECK/include/dCSR.h"
+float *data;
+# 15 "/home/jiet/Documents/spECK/include/dCSR.h"
+unsigned *row_offsets;
+# 16 "/home/jiet/Documents/spECK/include/dCSR.h"
+unsigned *col_ids;};
+# 10 "/home/jiet/Documents/spECK/include/dCSR.h"
+struct _Z4dCSRIdE { const long *__vptr;
+# 12 "/home/jiet/Documents/spECK/include/dCSR.h"
+size_t rows;
+# 12 "/home/jiet/Documents/spECK/include/dCSR.h"
+size_t cols;
+# 12 "/home/jiet/Documents/spECK/include/dCSR.h"
+size_t nnz;
+# 14 "/home/jiet/Documents/spECK/include/dCSR.h"
+double *data;
+# 15 "/home/jiet/Documents/spECK/include/dCSR.h"
+unsigned *row_offsets;
+# 16 "/home/jiet/Documents/spECK/include/dCSR.h"
+unsigned *col_ids;};
+# 258 "/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h" 3
+typedef unsigned long _ZSt6size_t;
+# 50 "/usr/include/c++/9/bits/uses_allocator.h" 3
+struct _ZSt15allocator_arg_t {};
+# 70 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_device_runtime_api.h"
+___device__(static  __no_sc__) __inline__ enum cudaError cudaMalloc(void **, size_t);
+#if !defined(__CUDABE__)
+# 105 "/usr/include/x86_64-linux-gnu/bits/stdio2.h" 3
+ __device_builtin__ ___device__(extern  __no_sc__) __inline__ __attribute__((__artificial__)) __attribute__((__always_inline__)) __attribute__((__gnu_inline__)) int printf(const char *__restrict__, ...);
+#endif
+#if !defined(__CUDABE__)
+# 339 "/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/math_functions.h"
+ __device_builtin__ ___device__(extern  __no_sc__) unsigned umin(const unsigned, const unsigned);
+#endif
+# 868 "/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/math_functions.hpp"
+___device__(static  __no_sc__) __inline__ unsigned _ZN48_INTERNAL_29a82683_10_Compare_cu_1d4163a7_2150763minEjj(const unsigned, const unsigned);
+# 3308 "/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/device_functions.h"
+___device__(extern  __no_sc__) unsigned __cudaPushCallConfiguration(struct dim3, struct dim3, size_t, struct CUstream_st *);
+# 603 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h"
+___device__(static  __no_sc__) __inline__ enum cudaError _ZN48_INTERNAL_29a82683_10_Compare_cu_1d4163a7_21507610cudaMallocIjEE9cudaErrorPPT_m(uint32_t **, size_t);
+# 6 "/home/jiet/Documents/spECK/include/common.h"
+___device__(static  __no_sc__) __inline__ __attribute__((__always_inline__)) int _Z5divupIiET_S0_S0_(int, int);
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__global__ __var_used__ extern void _Z9d_compareIfEviiPKjS1_PKT_S1_S1_S4_bdPj(int, int, const uint32_t *__restrict__, const uint32_t *__restrict__, const float *__restrict__, const uint32_t *__restrict__, const uint32_t *__restrict__, const float *__restrict__, __nv_bool, double, uint32_t *);
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__global__ __var_used__ extern void _Z9d_compareIdEviiPKjS1_PKT_S1_S1_S4_bdPj(int, int, const uint32_t *__restrict__, const uint32_t *__restrict__, const double *__restrict__, const uint32_t *__restrict__, const uint32_t *__restrict__, const double *__restrict__, __nv_bool, double, uint32_t *);
+# 423 "/usr/local/cuda/bin/../targets/x86_64-linux/include/vector_types.h"
+___device__(static  __no_sc__) __inline__ void _ZN4dim3C1Ejjj(struct dim3 *const, unsigned, unsigned, unsigned);
+___device__(static  __no_sc__) __inline__ void _ZN4dim3C2Ejjj(struct dim3 *const, unsigned, unsigned, unsigned);
+# 71 "/usr/include/c++/9/bits/std_abs.h" 3
+___device__(static  __no_sc__) __inline__ __attribute__((visibility("default"))) double _ZSt3absd(double);
+# 75 "/usr/include/c++/9/bits/std_abs.h" 3
+___device__(static  __no_sc__) __inline__ __attribute__((visibility("default"))) float _ZSt3absf(float);
+#include "common_functions.h"
+# 70 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_device_runtime_api.h"
+___device__(static  __no_sc__) __inline__ enum cudaError cudaMalloc(
+# 70 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_device_runtime_api.h"
+void **p, 
+# 70 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_device_runtime_api.h"
+size_t s){
+# 71 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_device_runtime_api.h"
+{
+# 72 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_device_runtime_api.h"
+return cudaErrorUnknown;
+# 73 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_device_runtime_api.h"
+}}
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+# 153 "/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/common_functions.h"
+ __device_builtin__ ___device__(extern  __no_sc__) __attribute__((__artificial__)) __attribute__((__always_inline__)) int printf(const char *, ...);
+#endif
+#if !defined(__CUDABE__)
+#endif
+# 868 "/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/math_functions.hpp"
+___device__(static  __no_sc__) __inline__ unsigned _ZN48_INTERNAL_29a82683_10_Compare_cu_1d4163a7_2150763minEjj(
+# 868 "/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/math_functions.hpp"
+const unsigned a, 
+# 868 "/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/math_functions.hpp"
+const unsigned b){
+# 869 "/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/math_functions.hpp"
+{
+# 870 "/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/math_functions.hpp"
+return umin(a, b);
+# 871 "/usr/local/cuda/bin/../targets/x86_64-linux/include/crt/math_functions.hpp"
+}}
+# 603 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h"
+___device__(static  __no_sc__) __inline__ enum cudaError _ZN48_INTERNAL_29a82683_10_Compare_cu_1d4163a7_21507610cudaMallocIjEE9cudaErrorPPT_m(
+# 604 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h"
+uint32_t **devPtr, 
+# 605 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h"
+size_t size){
+# 607 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h"
+{
+# 608 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h"
+return cudaMalloc(((void **)((void *)devPtr)), size);
+# 609 "/usr/local/cuda/bin/../targets/x86_64-linux/include/cuda_runtime.h"
+}}
+# 6 "/home/jiet/Documents/spECK/include/common.h"
+___device__(static  __no_sc__) __inline__ __attribute__((__always_inline__)) int _Z5divupIiET_S0_S0_(
+# 6 "/home/jiet/Documents/spECK/include/common.h"
+int a, 
+# 6 "/home/jiet/Documents/spECK/include/common.h"
+int b){
+# 7 "/home/jiet/Documents/spECK/include/common.h"
+{
+# 8 "/home/jiet/Documents/spECK/include/common.h"
+return ((a + b) - 1) / b;
+# 9 "/home/jiet/Documents/spECK/include/common.h"
+}}
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__global__ __var_used__ void _Z9d_compareIfEviiPKjS1_PKT_S1_S1_S4_bdPj(
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+int in_rows, 
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+int in_cols, 
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const uint32_t *__restrict__ reference_offset, 
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const uint32_t *__restrict__ reference_indices, 
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const float *__restrict__ reference_values, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const uint32_t *__restrict__ compare_offset, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const uint32_t *__restrict__ compare_indices, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const float *__restrict__ compare_values, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__nv_bool compare_data, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+double epsilon, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+uint32_t *verification){
+# 14 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 15 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ int __cuda_local_var_50661_6_non_const_tid;
+# 22 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t __cuda_local_var_50668_11_non_const_ref_offset;
+# 23 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t __cuda_local_var_50669_11_non_const_comp_offset;
+# 24 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t __cuda_local_var_50670_11_non_const_ref_number_entries;
+# 25 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t __cuda_local_var_50671_11_non_const_comp_number_entries;
+# 36 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t __cuda_local_var_50682_11_non_const_num_entries;
+# 15 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50661_6_non_const_tid = ((int)((threadIdx.x) + ((blockDim.x) * (blockIdx.x))));
+# 16 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+if (__cuda_local_var_50661_6_non_const_tid >= in_rows) {
+# 17 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+return; }
+# 22 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50668_11_non_const_ref_offset = (reference_offset[__cuda_local_var_50661_6_non_const_tid]);
+# 23 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50669_11_non_const_comp_offset = (compare_offset[__cuda_local_var_50661_6_non_const_tid]);
+# 24 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50670_11_non_const_ref_number_entries = ((reference_offset[(__cuda_local_var_50661_6_non_const_tid + 1)]) - __cuda_local_var_50668_11_non_const_ref_offset);
+# 25 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50671_11_non_const_comp_number_entries = ((compare_offset[(__cuda_local_var_50661_6_non_const_tid + 1)]) - __cuda_local_var_50669_11_non_const_comp_offset);
+# 27 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+if (__cuda_local_var_50670_11_non_const_ref_number_entries != __cuda_local_var_50671_11_non_const_comp_number_entries)
+# 28 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 30 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+printf(((const char *)"---------- Row: %u | Row length not identical: (Ref|Comp) : (%u|%u)\n"), __cuda_local_var_50661_6_non_const_tid, __cuda_local_var_50670_11_non_const_ref_number_entries, __cuda_local_var_50671_11_non_const_comp_number_entries);
+# 32 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+(*verification) = 1U;
+# 33 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+return;
+# 34 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+}
+# 36 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50682_11_non_const_num_entries = (_ZN48_INTERNAL_29a82683_10_Compare_cu_1d4163a7_2150763minEjj(__cuda_local_var_50670_11_non_const_ref_number_entries, __cuda_local_var_50671_11_non_const_comp_number_entries));
+# 38 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 38 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t i;
+# 38 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+i = 0U;
+# 38 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+for (; (i < __cuda_local_var_50682_11_non_const_num_entries); ++i)
+# 39 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 40 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+if ((reference_indices[(__cuda_local_var_50668_11_non_const_ref_offset + i)]) != (compare_indices[(__cuda_local_var_50669_11_non_const_comp_offset + i)]))
+# 41 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 43 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+printf(((const char *)"Row: %u | Row indices do NOT match: (Ref|Comp) : (%u|%u) - pos: %u/%u\n"), __cuda_local_var_50661_6_non_const_tid, (reference_indices[(__cuda_local_var_50668_11_non_const_ref_offset + i)]), (compare_indices[(__cuda_local_var_50669_11_non_const_comp_offset + i)]), i, __cuda_local_var_50682_11_non_const_num_entries);
+# 45 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+(*verification) = 1U;
+# 46 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+return;
+# 47 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+}
+# 48 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+if (compare_data)
+# 49 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 50 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+if (((compare_values[(__cuda_local_var_50669_11_non_const_comp_offset + i)]) != (0.0F)) && (((double)(_ZSt3absf((( fdividef((reference_values[(__cuda_local_var_50668_11_non_const_ref_offset + i)]) , (compare_values[(__cuda_local_var_50669_11_non_const_comp_offset + i)]))) - (1.0F))))) > (0.01)))
+# 51 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 53 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+printf(((const char *)"Row: %u | Values do NOT match: (Ref|Comp) : (%f|%f) - pos: %u/%u - col %u\n"), __cuda_local_var_50661_6_non_const_tid, ((double)(reference_values[(__cuda_local_var_50668_11_non_const_ref_offset + i)])), ((double)(compare_values[(__cuda_local_var_50669_11_non_const_comp_offset + i)])), i, __cuda_local_var_50682_11_non_const_num_entries, (reference_indices[(__cuda_local_var_50668_11_non_const_ref_offset + i)]));
+# 55 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+(*verification) = 1U;
+# 57 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+}
+# 58 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+}
+# 59 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+} }
+# 61 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+return;
+# 62 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+}}
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__global__ __var_used__ void _Z9d_compareIdEviiPKjS1_PKT_S1_S1_S4_bdPj(
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+int in_rows, 
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+int in_cols, 
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const uint32_t *__restrict__ reference_offset, 
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const uint32_t *__restrict__ reference_indices, 
+# 12 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const double *__restrict__ reference_values, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const uint32_t *__restrict__ compare_offset, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const uint32_t *__restrict__ compare_indices, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+const double *__restrict__ compare_values, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__nv_bool compare_data, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+double epsilon, 
+# 13 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+uint32_t *verification){
+# 14 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 15 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ int __cuda_local_var_50661_6_non_const_tid;
+# 22 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t __cuda_local_var_50668_11_non_const_ref_offset;
+# 23 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t __cuda_local_var_50669_11_non_const_comp_offset;
+# 24 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t __cuda_local_var_50670_11_non_const_ref_number_entries;
+# 25 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t __cuda_local_var_50671_11_non_const_comp_number_entries;
+# 36 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t __cuda_local_var_50682_11_non_const_num_entries;
+# 15 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50661_6_non_const_tid = ((int)((threadIdx.x) + ((blockDim.x) * (blockIdx.x))));
+# 16 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+if (__cuda_local_var_50661_6_non_const_tid >= in_rows) {
+# 17 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+return; }
+# 22 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50668_11_non_const_ref_offset = (reference_offset[__cuda_local_var_50661_6_non_const_tid]);
+# 23 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50669_11_non_const_comp_offset = (compare_offset[__cuda_local_var_50661_6_non_const_tid]);
+# 24 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50670_11_non_const_ref_number_entries = ((reference_offset[(__cuda_local_var_50661_6_non_const_tid + 1)]) - __cuda_local_var_50668_11_non_const_ref_offset);
+# 25 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50671_11_non_const_comp_number_entries = ((compare_offset[(__cuda_local_var_50661_6_non_const_tid + 1)]) - __cuda_local_var_50669_11_non_const_comp_offset);
+# 27 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+if (__cuda_local_var_50670_11_non_const_ref_number_entries != __cuda_local_var_50671_11_non_const_comp_number_entries)
+# 28 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 30 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+printf(((const char *)"---------- Row: %u | Row length not identical: (Ref|Comp) : (%u|%u)\n"), __cuda_local_var_50661_6_non_const_tid, __cuda_local_var_50670_11_non_const_ref_number_entries, __cuda_local_var_50671_11_non_const_comp_number_entries);
+# 32 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+(*verification) = 1U;
+# 33 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+return;
+# 34 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+}
+# 36 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+__cuda_local_var_50682_11_non_const_num_entries = (_ZN48_INTERNAL_29a82683_10_Compare_cu_1d4163a7_2150763minEjj(__cuda_local_var_50670_11_non_const_ref_number_entries, __cuda_local_var_50671_11_non_const_comp_number_entries));
+# 38 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 38 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+ uint32_t i;
+# 38 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+i = 0U;
+# 38 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+for (; (i < __cuda_local_var_50682_11_non_const_num_entries); ++i)
+# 39 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 40 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+if ((reference_indices[(__cuda_local_var_50668_11_non_const_ref_offset + i)]) != (compare_indices[(__cuda_local_var_50669_11_non_const_comp_offset + i)]))
+# 41 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 43 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+printf(((const char *)"Row: %u | Row indices do NOT match: (Ref|Comp) : (%u|%u) - pos: %u/%u\n"), __cuda_local_var_50661_6_non_const_tid, (reference_indices[(__cuda_local_var_50668_11_non_const_ref_offset + i)]), (compare_indices[(__cuda_local_var_50669_11_non_const_comp_offset + i)]), i, __cuda_local_var_50682_11_non_const_num_entries);
+# 45 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+(*verification) = 1U;
+# 46 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+return;
+# 47 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+}
+# 48 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+if (compare_data)
+# 49 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 50 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+if (((compare_values[(__cuda_local_var_50669_11_non_const_comp_offset + i)]) != (0.0)) && ((_ZSt3absd((( fdivide((reference_values[(__cuda_local_var_50668_11_non_const_ref_offset + i)]) , (compare_values[(__cuda_local_var_50669_11_non_const_comp_offset + i)]))) - (1.0)))) > (0.01)))
+# 51 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+{
+# 53 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+printf(((const char *)"Row: %u | Values do NOT match: (Ref|Comp) : (%f|%f) - pos: %u/%u - col %u\n"), __cuda_local_var_50661_6_non_const_tid, (reference_values[(__cuda_local_var_50668_11_non_const_ref_offset + i)]), (compare_values[(__cuda_local_var_50669_11_non_const_comp_offset + i)]), i, __cuda_local_var_50682_11_non_const_num_entries, (reference_indices[(__cuda_local_var_50668_11_non_const_ref_offset + i)]));
+# 55 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+(*verification) = 1U;
+# 57 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+}
+# 58 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+}
+# 59 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+} }
+# 61 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+return;
+# 62 "/home/jiet/Documents/spECK/source/GPU/Compare.cu"
+}}
+__asm__(".align 2");
+# 423 "/usr/local/cuda/bin/../targets/x86_64-linux/include/vector_types.h"
+___device__(static  __no_sc__) __inline__ void _ZN4dim3C1Ejjj( struct dim3 *const this, 
+# 423 "/usr/local/cuda/bin/../targets/x86_64-linux/include/vector_types.h"
+unsigned vx, 
+# 423 "/usr/local/cuda/bin/../targets/x86_64-linux/include/vector_types.h"
+unsigned vy, 
+# 423 "/usr/local/cuda/bin/../targets/x86_64-linux/include/vector_types.h"
+unsigned vz){
+# 423 "/usr/local/cuda/bin/../targets/x86_64-linux/include/vector_types.h"
+{
+# 423 "/usr/local/cuda/bin/../targets/x86_64-linux/include/vector_types.h"
+(this->x) = vx;
+# 423 "/usr/local/cuda/bin/../targets/x86_64-linux/include/vector_types.h"
+(this->y) = vy;
+# 423 "/usr/local/cuda/bin/../targets/x86_64-linux/include/vector_types.h"
+(this->z) = vz; 
+# 423 "/usr/local/cuda/bin/../targets/x86_64-linux/include/vector_types.h"
+}}
+__asm__(".align 2");
+___device__(static  __no_sc__) __inline__ void _ZN4dim3C2Ejjj( struct dim3 *const this,  unsigned __T12,  unsigned __T13,  unsigned __T14){ {  _ZN4dim3C1Ejjj(this, __T12, __T13, __T14);  }}
+# 71 "/usr/include/c++/9/bits/std_abs.h" 3
+___device__(static  __no_sc__) __inline__ __attribute__((visibility("default"))) double _ZSt3absd(
+# 71 "/usr/include/c++/9/bits/std_abs.h" 3
+double __x){
+# 72 "/usr/include/c++/9/bits/std_abs.h" 3
+{
+# 72 "/usr/include/c++/9/bits/std_abs.h" 3
+return fabs(__x);
+# 72 "/usr/include/c++/9/bits/std_abs.h" 3
+}}
+# 75 "/usr/include/c++/9/bits/std_abs.h" 3
+___device__(static  __no_sc__) __inline__ __attribute__((visibility("default"))) float _ZSt3absf(
+# 75 "/usr/include/c++/9/bits/std_abs.h" 3
+float __x){
+# 76 "/usr/include/c++/9/bits/std_abs.h" 3
+{
+# 76 "/usr/include/c++/9/bits/std_abs.h" 3
+return fabsf(__x);
+# 76 "/usr/include/c++/9/bits/std_abs.h" 3
+}}

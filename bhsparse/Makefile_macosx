@@ -1,0 +1,15 @@
+#compilers
+CC=nvcc
+
+#includes
+CUDA_INSTALL_PATH = /Developer/NVIDIA/CUDA-7.5
+INCLUDES = -I$(CUDA_INSTALL_PATH)/include -I$(CUDA_INSTALL_PATH)/samples/common/inc
+
+#libs
+CUDA_LIBS = -L$(CUDA_INSTALL_PATH)/lib -lcudart
+#CLANG_LIBS = -stdlib=libstdc++ -lstdc++
+LIBS = $(CUDA_LIBS) $(CLANG_LIBS)
+
+all: 
+	nvcc -O3 -m64 -arch=sm_30 main.cu -o spgemm $(INCLUDES) $(LIBS)
+

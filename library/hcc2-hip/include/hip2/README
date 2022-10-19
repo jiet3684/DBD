@@ -1,0 +1,7 @@
+
+This set of headers needs more work
+
+The goal is to not collide with cuda headers. 
+The textures types and functions are colliding. 
+
+These headers are auto included by clang headers
