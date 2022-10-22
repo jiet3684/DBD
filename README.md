@@ -74,6 +74,12 @@ Every execution Time includes kernel execution, device-to-host transfer (if need
 
 And execution time of Dynamic Block Distribution also includes preprocessing overhead (block segmentation, categorization).
 
+bin/compute: Kernel
+
+bin/d2h: Kernel + D2H
+
+bin/SSpMM: Kernel + D2H + File I/O
+
 ## References
 [1] "Intel Math Kernel Library", https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html
 
