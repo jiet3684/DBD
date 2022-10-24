@@ -1,5 +1,5 @@
 # Change BASEDIR
-BASEDIR=/home/jiet/DBD/icde/small
+BASEDIR=/home/jiet/DBD/dbd/for_small_datasets
 SRCDIR=$(BASEDIR)/src
 OBJDIR=$(BASEDIR)/obj
 
