@@ -17,10 +17,12 @@ int *gpu_BufIdx;
 float *gpu_BufVal;
 
 //__global__ void coo2csr(edgeData *, int *, int *, float *, int);
+__global__ void warm_up_gpu();
 __global__ void calculate_UpperBound(int *, int *, int *, int *);
 
 void initialize_GPU() {
     cudaFree(0);
+    warm_up_gpu<<<4096, 512>>> ();
 }
 
 void initialize_A() {
@@ -175,3 +177,10 @@ __global__ void calculate_UpperBound(int *ptrA, int *idxA, int *ptrB, int *upp) 
 		atomicAdd(&upp[blockIdx.x], ptrB[rowB + 1] - ptrB[rowB]); 
 	}
 }
+
+__global__ void warm_up_gpu(){
+    unsigned int tid = blockIdx.x * blockDim.x + threadIdx.x;
+    float ia, ib;
+    ia = ib = 0.0f;
+    ib += ia + tid; 
+  }
