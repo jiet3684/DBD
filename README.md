@@ -3,7 +3,7 @@
 ## Compilation
 
 We provide some object files (.o), and cuda source code files (.cu) since .cu files need to be compiled with appropriate compute capability.
-All object files are included in icde/small/obj/ or icde/large/obj directory, and cuda source codes are included in icde/small/src or icde/large/src directory.
+All object files are included in dbd/for_small_datasets/obj/ or dbd/for_large_datasets/obj directory, and cuda source codes are included in icde/small/src or icde/large/src directory.
 
 dbd/for_small_datasets is a Dynamic Block Distributor framework when blocksize is 4096.
 Small datasets are evaluated with this small blocksize since they do not require large memory space.
