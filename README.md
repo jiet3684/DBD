@@ -12,7 +12,7 @@ Also, dbd/for_large_datadsets is a Dynamic Block Distributor framework when bloc
 Large datasets are evaluated with this blocksize.
 
 
-In base directory, such as icde/for_small_datasets or icde/for_large_datasets, you need to modify the given Makefile based on your 1) base directory, 2) Compute Capability (compute_xx, sm_xx).
+In base directory, such as dbd/for_small_datasets or dbd/for_large_datasets, you need to modify the given Makefile based on your 1) base directory, 2) Compute Capability (compute_xx, sm_xx).
 
 After the process, you can generate execution files with "$ make".
 
