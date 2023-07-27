@@ -53,7 +53,7 @@ SSDs: Samsung NVMe PM981
 
 Running ./bin/SSpMM without any arguments prints its instructions.
 
-You can run DBD with input file name and DRAM size (GiB). DRAM size effects to size of result buffer in host DRAM.
+You can run DBD with input file name and DRAM size (GiB). DRAM size effects the size of result buffer in host DRAM.
 
 <1> Executable File Name, Input File 1  (Performs A * A with CPU DRAM size is 28 GiB, GPU DRAM size is 22 GiB)
 
