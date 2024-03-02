@@ -92,4 +92,3 @@ bin/SSpMM: Kernel + D2H + File I/O
 [5] Mathias Parger, Martin Winter, Daniel Mlakar, and Markus Steinberger.Speck:  Accelerating  gpu  sparse  matrix-matrix  multiplication  throughlightweight analysis. InProceedings of the 25th ACM SIGPLAN Sympo-sium on Principles and Practice of Parallel Programming, PPoPP ’20,page 362–375, New York, NY, USA, 2020. Association for ComputingMachinery.
 
 
-* We will provide the full source code soon, when some confidential issues are resolved.
